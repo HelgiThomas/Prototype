@@ -1,0 +1,213 @@
+/*MOST BASIC CSS*/
+html, body, {
+	height 100%;
+}
+
+body {
+	background-color: #e3e3e3;
+	font-family: "Noto Sans",serif, sans-serif;
+}
+
+/*NAVBAR*/
+
+.navbar {
+	line-height: 2 rem;
+
+}
+
+.custom-navbar {
+	background-color:#1A5276;
+}	
+
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.navbar-brand img {
+	width: 15%;
+	margin-left: 0.7rem;
+}
+
+.navbar a {
+	color: #fff !important;
+}
+
+.active {
+	background-color: #4da0d6;
+	border-radius: 0.5rem;
+}
+
+
+/*Hover Effects for Navbar*/
+
+.link-3 {
+	transition: 0.4s;
+	color: #ffffff;
+
+	text-decoration: none;
+
+}
+.link-3:hover {
+	background-color:  #2874A6  ;
+	color: #EEA200;
+	border-radius: 0.5rem
+}
+
+.nav-link:hover {
+
+}
+
+/*THE CARD*/
+
+div.card {
+	top: 40%;
+	border-radius: 0.5rem;
+	margin: auto;
+}
+
+div.card-block {
+	padding: 40px 0px 20px;
+	background: #eeeeee; /* Old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	border-radius: 0.5rem;
+}
+
+.card-block img {
+	display: block;
+	margin: auto;
+	width: 25%;
+	margin-bottom: 40px;;
+}
+
+.signin-form {
+	max-width: 350px;
+	margin: auto;
+}
+
+.form-group {
+	display: block;
+	margin: auto;
+	width: 90%;
+	padding-bottom: 1rem
+}
+
+.form-group .text-box {
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	background-color: #f2f2f2;
+}
+
+button.signin-btn {
+	background-color:#2A3F54;
+	width: 75%;
+	display: block;
+	margin: auto;
+	margin-bottom: 1.2rem;
+	color: #fff;
+}
+
+/* FOOTer */
+
+.footer-wrapper {
+ 	min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -40px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+  margin-top: 
+}
+footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	height:40px;
+	line-height: 1rem;
+	overflow:hidden;
+	background-color:#2A3F54;
+	margin: 0;
+	display: flex;
+}
+
+footer p {
+	color: #fff !important;
+}
+
+footer .text-muted {
+	text-align: right;
+	font-weight: 700;
+	padding-top: 0.51rem
+}
+
+
+/*SOCIAL ICONS*/
+footer .social-icons {
+	padding-top: 0.21rem;
+
+}
+
+footer .social-icons i {
+	padding-right: 2rem;
+	color: #fff;
+}
+
+.fb-logo-img {
+	width: 30px;
+} 
+
+/* MEDIA QUARIES */
+
+@media(max-width: 1200px) {
+
+}
+
+@media(max-width: 991px) {
+	.navbar-brand img {
+	display: none;
+}
+}
+
+@media(min-width: 768px) and (max-width: 990px) {
+	div.card {
+		top: 40%;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+	div.card {
+		top: 40%;
+	}
+	
+	.card-block img {
+		margin-bottom: 20px;
+		width: 20%;
+	}
+	
+	div.card {
+		width: 300px;
+	
+	}
+	
+	.signin-form {
+	max-width: 300px;
+		}
+	
+	button.signin-btn {
+		width: 60%;
+	}
+	
+	}
+
+
+@media (max-width: 500px) {
+
+}
